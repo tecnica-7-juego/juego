@@ -130,6 +130,7 @@ function detenerTiempo(){
 
 function mostrarPuntaje(){
   elementoPuntaje.innerHTML = `Puntaje: ${puntaje}`
+  elementoPuntaje.style.textAlign = "center";
   elementoPuntaje.classList.remove("ocultar")
     containerPregunta.appendChild(elementoPuntaje)
 }
