@@ -143,135 +143,139 @@ let preguntas = []
 
  const preguntasCulturaGeneral = [
      {
-       pregunta: '¿Qué se celebra el 9 de julio en Argentina?',
+       pregunta: '¿Qué se celebra el 17 de agosto en Argentina?',
        respuestas: [
-         { texto: 'Día de la memoria', correcto: false },
-         { texto: 'Día de la bandera', correcto: false },
-         { texto:'Día de la independencia', correcto: true },
-         { texto:'Día de la escarapela', correcto:false },
+         { texto: 'Fallecimiento de Sarmiento', correcto: false },
+         { texto: 'Fallecimiento de Belgrano', correcto: false },
+         { texto:'Fallecimiento de San Martín', correcto: true },
+         { texto:'Fallecimiento de Güemes', correcto:false },
        ]
      },
      {
-       pregunta: '¿Dónde se realizó la firma de la declaración de independencia?',
+       pregunta: '¿Dónde nació San Martín?',
        respuestas: [
-         { texto: 'Chaco', correcto: false },
-         { texto: 'Tucumán', correcto: true },
+         { texto: 'Buenos Aires', correcto: false },
+         { texto: 'Corrientes', correcto: true },
          { texto: 'Mendoza', correcto: false },
          { texto: 'Formosa', correcto: false }
        ]
      },
      {
-       pregunta: '¿En qué año se firmó la independencia?',
+       pregunta: '¿Dónde estudió San Martín?',
        respuestas: [
-         { texto: '1810', correcto: false },
-         { texto: '1812', correcto: false },
-         { texto: '1820', correcto: false },
-         { texto: '1816', correcto: true }
+         { texto: 'Buenos Aires', correcto: false },
+         { texto: 'Francia', correcto: false },
+         { texto: 'Italia', correcto: false },
+         { texto: 'España', correcto: true }
        ]
      },
      {
-       pregunta: '¿De quién era la casa donde se firmó el acta de independencia?',
+       pregunta: '¿Cuál es el nombre de la esposa de San Martín?',
        respuestas: [
-         { texto: 'Doña Francisca Bazán de Laguna', correcto: true },
+         { texto: 'Doña María de los Remedios de Escalada', correcto: true },
          { texto: 'Doña Gregoria Matorras', correcto: false },
-         { texto: 'Mariquita Sánchez de Thompson', correcto: false },
-         { texto: 'Juana Azurduy', correcto: false}
+         { texto: 'Doña Encarnación Ezcurra', correcto: false },
+         { texto: 'Doña Benita Martínez de Pastoriza', correcto: false}
        ]
      },
      {
-      pregunta: '¿Quiénes suscribieron el acta de declaración?',
+      pregunta: '¿Qué evento transcendente realizó San Martín?',
       respuestas: [
-        { texto: '29 diputados', correcto: true },
-        { texto: '29 senadores', correcto: false },
-        { texto: '29 vecinos', correcto: false },
-        { texto: '29 jueces', correcto: false}
+        { texto: 'Cruce de los Andes', correcto: true },
+        { texto: 'Creación de la bandera', correcto: false },
+        { texto: 'Declaración de la independencia', correcto: false },
+        { texto: 'Vuelta de obligado', correcto: false}
 
       ]
     },
     {
-      pregunta: 'La reunión en Tucumán fue presidida por:',
+      pregunta: '¿Cuántos dias tardó San Martín en cruzar la cordillera?',
       respuestas: [
-        { texto: 'Mariano Boedo', correcto: false },
-        { texto: 'Francisco N. Laprida', correcto: true },
-        { texto: 'Juan José Paso', correcto: false},
-        { texto: 'Tomás Godoy Cruz', correcto: false }
+        { texto: '20 días', correcto: false },
+        { texto: '25 días', correcto: true },
+        { texto: '30 días', correcto: false},
+        { texto: '35 días', correcto: false }
       ]
     },
     {
-      pregunta: 'La declaración de la independencia permitió romper vínculos con:',
+      pregunta: '¿Cuántos soldados cruzaron los Andes con San Martín?',
       respuestas: [
-        { texto: 'Francia', correcto: false },
-        { texto: 'España', correcto: true },
-        { texto: 'Inglaterra', correcto: false },
-        { texto: 'Estados Unidos', correcto: false}
+        { texto: '7.000 soldados', correcto: false },
+        { texto: '5.000 soldados', correcto: true },
+        { texto: '9.000 soldados', correcto: false },
+        { texto: '4.000 soldados', correcto: false}
       ]
     },
     {
-      pregunta: '¿Cuántos kilometros separan Buenos Aires de Tucumán',
+      pregunta: '¿Cuántas mulas llevó San Martín al cruce?',
       respuestas: [
-        { texto: '1500', correcto: false },
-        { texto: '1250', correcto: true },
-        { texto: '2000', correcto: false },
-        { texto: '2200', correcto: false}
+        { texto: '7.000', correcto: false },
+        { texto: '9.300', correcto: true },
+        { texto: '8.500', correcto: false },
+        { texto: '2.350', correcto: false}
       ]
     },
     {
-      pregunta: '¿Qué eran las galeras?',
+      pregunta: '¿Qué significa Andes?',
       respuestas: [
-        { texto: 'Carretas para transportar alimentos', correcto: false },
-        { texto: 'Carros para 2 personas', correcto: false },
-        { texto: 'Carritos de supermercado', correcto: false },
-        { texto: 'Carruajes para 6 u 8 personas', correcto: true}
+        { texto: 'Cadena montañosa', correcto: false },
+        { texto: 'Montaña alta', correcto: false },
+        { texto: 'Cadena alta', correcto: false },
+        { texto: 'Cresta alta', correcto: true}
       ]
     },
     {
-      pregunta: 'La comida de base de la época era:',
+      pregunta: '¿Por qué se llevaron más mulas que caballos?',
       respuestas: [
-        { texto: 'El puchero', correcto: true },
-        { texto: 'El locro', correcto: false },
-        { texto: 'El asado', correcto: false },
-        { texto: 'El guiso', correcto: false}
+        { texto: 'Por la fuerza', correcto: true },
+        { texto: 'Por lo económico', correcto: false },
+        { texto: 'Por la abundancia', correcto: false },
+        { texto: 'Por su velocidad', correcto: false}
       ]
     },
     {
-      pregunta: '¿Cuál de estas mujeres tomo las armas contra los realistas (españoles)?',
+      pregunta: 'San Martín fue gobernador de:',
       respuestas: [
-        { texto: 'Juana Rodriguez', correcto: false },
-        { texto: 'Mercedes Tomasa de San Martín', correcto: false },
-        { texto: 'Juana Azurduy', correcto: true },
-        { texto: 'Ana de Armas', correcto: false}
+        { texto: 'El Alto Perú', correcto: false },
+        { texto: 'Buenos Aires', correcto: false },
+        { texto: 'Cuyo', correcto: true },
+        { texto: 'La Patagonia', correcto: false}
       ]
     },
     {
-      pregunta: '¿Qué político argentino tomó un papel decisivo en la declaración de la independencia?',
+      pregunta: 'San Martín se reunión en Guayaquil con:',
       respuestas: [
-        { texto: 'Bernardino Rivadavia', correcto: false },
-        { texto: 'Cornelio Saavedra', correcto: false },
-        { texto: 'Nicolás Avellaneda', correcto: false },
-        { texto: 'José de San Martín', correcto: true}
+        { texto: 'Belgrano', correcto: false },
+        { texto: 'Saavedra', correcto: false },
+        { texto: 'Rosas', correcto: false },
+        { texto: 'Bolívar', correcto: true}
       ]
     },
     {
-      pregunta: 'Martín Miguel de Güemes',
+      pregunta: 'Algunas de las batallas ganadas por San Martín:',
       respuestas: [
-        { texto: 'Defendió la frontera norte del país del avance realista', correcto: true },
-        { texto: 'Participó en la firma del acta de la independencia', correcto: false}
+        { texto: 'San Lorenzo, Chacabuco y Maipú', correcto: true },
+        { texto: 'Maipú, Tucumán y Cancha Rayada', correcto: false },
+        { texto: 'Cancha Rayada, San Lorenzo y Maipú', correcto: false },
+        { texto: 'Caseros, Tucumán y Chacabuco', correcto: false}
       ]
     },
     {
-      pregunta: 'Manuel Belgrano consolidó la independencia con las victorias en las batallas de',
+      pregunta: 'San Martín falleció en:',
       respuestas: [
-        { texto: 'Vilcapugio y Ayohuma en 1813', correcto: false },
-        { texto: 'Tucumán y Salta en 1812 y 1813', correcto: true}
+        { texto: 'Buenos Aires', correcto: false },
+        { texto: 'Francia', correcto: true},
+        { texto: 'San Juan', correcto: false},
+        { texto: 'Corrientes', correcto: false}
       ]
     },
     {
-      pregunta: 'El 9 de julio de 1816 se declaró formalmente la independencia de',
+      pregunta: 'Año de fallecimiento de San Martín:',
       respuestas: [
-        { texto: 'Las Colonias independientes de España', correcto: false },
-        { texto: 'Las Provincias unidas del alto Perú', correcto: false },
-        { texto: 'Las Provincias unidas del Río de la Plata', correcto: true },
-        { texto: 'Los Estados Unidos de América', correcto: false }
+        { texto: '1830', correcto: false },
+        { texto: '1840', correcto: false },
+        { texto: '1850', correcto: true },
+        { texto: '1860', correcto: false }
       ]
     }
 
